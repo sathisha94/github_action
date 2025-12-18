@@ -1,7 +1,7 @@
-name:firstFile
+name: firstFile
 on: workflow_dispatch
 jobs:
-  this_is_first_job:
-  runs-on: ubuntu-latest
-  stpes:
-    - run: echo "${{github.actor}} says Welcome to GitHub Action!!"
+  This_is_first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "${{github.actor}} says Welcome to GitHub Action!!"
